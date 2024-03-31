@@ -1,11 +1,29 @@
 {
   "name": "mathyutils",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "description": "monorepo scaffolding with turborepo for UI and javascript library",
+  "author": "Ivan Avila <ivelaval@gmail.com>",
+  "homepage": "https://github.com/ivelaval/turborepo-monorepo-scaffolding/blob/main/packages/math/README.md",
+  "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivelaval/turborepo-monorepo-scaffolding/tree/main/packages/math",
+    "directory": "packages/math"
+  },
+  "bugs": {
+    "url": "https://github.com/ivelaval/turborepo-monorepo-scaffolding/issues"
   },
   "scripts": {
     "dev": "npm run build -- --watch",
