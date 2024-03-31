@@ -9,6 +9,7 @@
     "test:watch": "turbo run test:watch",
     "test: coverage": "turbo run test:coverage",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
     "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "devDependencies": {
