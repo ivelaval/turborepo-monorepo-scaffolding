@@ -4,7 +4,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
     },
     "lint": {
       "dependsOn": ["^lint"]
@@ -12,6 +12,18 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "test": {
+      "inputs": ["src/**/*.tsx", "src/**/*.ts"]
+    },
+    "test:watch": {
+      "cache": false
+    },
+    "test:coverage": {
+      "cache": false
+    },
+    "deploy": {
+      "dependsOn": ["build", "test", "lint"]
     }
   }
 }
