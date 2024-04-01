@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.7
+
+### Patch Changes
+
+- ae59063: "New changeset changes for type definitions, some refactors were made
+
 ## 0.0.6
 
 ### Patch Changes
