@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.5
+
+### Patch Changes
+
+- 80cc905: Some fixes were added to fix declaration types when the packages are imported
+
 ## 0.0.4
 
 ### Patch Changes
