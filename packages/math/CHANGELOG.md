@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.6
+
+### Patch Changes
+
+- 56750f7: Some fixe for type declarations
+
 ## 0.0.5
 
 ### Patch Changes
