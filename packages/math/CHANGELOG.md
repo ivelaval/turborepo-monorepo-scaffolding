@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.4
+
+### Patch Changes
+
+- 843f114: New changes were added for get more information about of package
+
 ## 0.0.3
 
 ### Patch Changes
