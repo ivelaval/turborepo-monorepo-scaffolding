@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.9
+
+### Patch Changes
+
+- 729c09b: Some improvements in the package.json
+
 ## 0.0.8
 
 ### Patch Changes
