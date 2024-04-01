@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.8
+
+### Patch Changes
+
+- Some fixes related to testing and the cherry pick implementation
+
 ## 0.0.7
 
 ### Patch Changes
