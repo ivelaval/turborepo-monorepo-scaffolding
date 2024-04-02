@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.10
+
+### Patch Changes
+
+- faf1e30: typescript dependency was syncronized in some projects
+
 ## 0.0.9
 
 ### Patch Changes
