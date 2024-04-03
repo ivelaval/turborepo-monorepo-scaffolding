@@ -17,7 +17,7 @@
     "tsup"
   ],
   "files": [
-    "dist"
+    "dist/**"
   ],
   "publishConfig": {
     "access": "public"
