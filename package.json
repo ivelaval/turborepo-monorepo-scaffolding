@@ -11,7 +11,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset:prepare": "changeset",
     "changeset:status": "changeset status --verbose",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
+    "pkg:check": "manypkg check",
+    "pkg:fix": "manypkg fix"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
