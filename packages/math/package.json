@@ -65,7 +65,7 @@
   },
   "scripts": {
     "dev": "npm run build -- --watch",
-    "build": "tsup src/*.ts --format cjs,esm --dts",
+    "build": "rm -rf dist && tsup src/*.ts --format cjs,esm --dts",
     "start": "echo `to be defined`",
     "test": "jest",
     "test:watch": "jest --watch",
