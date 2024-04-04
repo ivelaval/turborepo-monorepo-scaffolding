@@ -1,5 +1,11 @@
 # mathyutils
 
+## 0.0.11
+
+### Patch Changes
+
+- cbac3ec: Some minimals changes were added
+
 ## 0.0.10
 
 ### Patch Changes
